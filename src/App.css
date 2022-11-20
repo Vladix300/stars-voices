@@ -1,0 +1,125 @@
+:root {
+  --grey: #202124;
+  --yellow: #FFCC00;
+}
+
+.App {
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.universe {
+  background-image: url('https://wallpapers.com/images/hd/stars-galaxies-rotation-universe-2al744h6z46w593e.jpg');
+  
+}
+
+.anotherUniverse {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b47e97673b956ef015df1b6fe7ec9949e830eeb1dcf0e33a67494b1c8a4c04e4._V_SX1080_.jpg');
+}
+
+.anotherUniverse-2 {
+  background-image: url('https://i0.wp.com/images.hdqwalls.com/wallpapers/purple-nebula-haze-stars-4k-r6.jpg');
+}
+
+
+#darkModeBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 150px;
+  background-color: var(--yellow);
+  color: black;
+  font-size: 1.1rem;
+}
+
+#darkModeBtn:hover {
+  cursor: pointer;
+  background-color: #ffd737;
+}
+
+#logo {
+  width: 500px;
+  position: absolute;
+  left: -50px;
+  top: -40px;
+}
+
+#container {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 40%;
+  height: 70%;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 100px;
+  left: 430px;
+}
+
+#spotifyPlayer {
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+  width: 300px;
+
+  /* border: 1px solid purple; */
+  display: flex;
+
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  transition: all 2s;
+
+}
+
+/* #iframeSpotify {
+  
+} */
+
+#spotifyLogo {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  width: 130px;
+
+}
+#spotifyLogo:hover {
+  cursor: pointer;
+}
+
+#spotifyNextBtnContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  /* border: 1px solid yellow; */
+  width: 100%;
+}
+
+#spotifyNextBtn {
+  border-radius: 10px;
+  background-color: #18D860;
+  color: black;
+  width: 140px;
+  font-weight: 800;
+  margin-bottom: 15px;
+
+  transition: transform 0.4s;
+}
+
+
+#spotifyNextBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.spotifyAppearanceAnim {
+  position: absolute;
+  left: 10px;
+}
+

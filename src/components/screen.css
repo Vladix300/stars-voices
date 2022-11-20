@@ -1,0 +1,81 @@
+:root {
+    --grey: #202124;
+    --yellow: #FFCC00;
+}
+
+#playerContainer {
+    background-color: var(--yellow);
+    color: black;
+}
+
+#starInfoContainer {
+    background-color: var(--grey);
+    color: white;
+}
+
+
+
+#screen {
+    background-color: var(--grey);
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid blue; */
+  
+    border-radius: 30px;
+  }
+  
+  .starImg {
+    border-radius: 20px;
+    width: auto;
+    height: 100%;
+    
+  }
+  
+  #starInfoContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+    position: relative;
+  }
+  
+  #starInfoContainer > p {
+    text-align: center;
+    /* position: absolute; */
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  #playerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+  }
+  
+  .playerBtns:hover {
+    cursor: pointer;
+  }
+  
+  
+  .parAnimation {
+    animation: parAppearing 2s linear forwards;
+  }
+  
+  @keyframes parAppearing {
+    0% {background-color:  var(--grey);}
+    50% {background-color: var(--yellow); color: black;}
+    100% {background-color: var(--grey); color: white;}
+  }
+
+  
+
+
+  @media (max-width: 900px) {
+    .starImg {
+      width: 300px;
+      height: auto;
+    }
+
+  }
+
